@@ -47,6 +47,16 @@
                ReferencedContainer = "container:UI Testing Cheat Sheet.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7D43D9E3247E5CB5009B61BB"
+               BuildableName = "VolleyUITests.xctest"
+               BlueprintName = "VolleyUITests"
+               ReferencedContainer = "container:UI Testing Cheat Sheet.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
