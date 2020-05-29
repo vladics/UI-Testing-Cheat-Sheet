@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D43A2632480E753009B98B7 /* functional.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = functional.xctestplan; sourceTree = "<group>"; };
 		7D43D9E4247E5CB5009B61BB /* VolleyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D43D9E6247E5CB5009B61BB /* VolleyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyUITests.swift; sourceTree = "<group>"; };
 		7D43D9E8247E5CB5009B61BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 				7D43D9E6247E5CB5009B61BB /* VolleyUITests.swift */,
 				7D43D9E8247E5CB5009B61BB /* Info.plist */,
 				7D43D9F3247EA45B009B61BB /* BaseTest.swift */,
+				7D43A2632480E753009B98B7 /* functional.xctestplan */,
 			);
 			path = VolleyUITests;
 			sourceTree = "<group>";

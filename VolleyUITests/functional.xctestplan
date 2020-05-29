@@ -1,0 +1,58 @@
+{
+  "configurations" : [
+    {
+      "id" : "85D70938-7711-412B-AAEB-44B45B7D50DF",
+      "name" : "smoke-UK",
+      "options" : {
+        "language" : "en-GB",
+        "locationScenario" : {
+          "identifier" : "London, England",
+          "referenceType" : "built-in"
+        },
+        "region" : "GB"
+      }
+    },
+    {
+      "id" : "110C463B-5D6D-4C1D-94CC-E034C8199288",
+      "name" : "regress-USA",
+      "options" : {
+        "language" : "en",
+        "locationScenario" : {
+          "identifier" : "San Francisco, CA, USA",
+          "referenceType" : "built-in"
+        },
+        "region" : "US",
+        "testExecutionOrdering" : "random"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "addressSanitizer" : {
+      "enabled" : true
+    },
+    "codeCoverage" : false,
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "--Reset"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:UI Testing Cheat Sheet.xcodeproj",
+      "identifier" : "84E1B4361B9DC34200453BB1",
+      "name" : "Volley"
+    }
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "BaseTest"
+      ],
+      "target" : {
+        "containerPath" : "container:UI Testing Cheat Sheet.xcodeproj",
+        "identifier" : "7D43D9E3247E5CB5009B61BB",
+        "name" : "VolleyUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

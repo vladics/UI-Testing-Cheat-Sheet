@@ -13,7 +13,6 @@ class BaseTest: XCTestCase {
     override func setUp() {
         continueAfterFailure = false
         let app = XCUIApplication()
-        app.launchArguments = ["--Reset"]
         app.launch()
     }
 }
